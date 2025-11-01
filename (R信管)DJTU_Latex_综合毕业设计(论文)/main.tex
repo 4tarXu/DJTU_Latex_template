@@ -213,6 +213,12 @@
 \include{latex/cover}					% 导入封面
 
 %% -------------------- 中英文摘要 -------------------- 
+\fancypagestyle{plain}{
+	\fancyhf{}		% 清空所有定义
+	\fancyfoot[CE,CO]{\zihao{-5} \songti \thepage}      % 设置页脚为当前页码，居中,小五
+	\renewcommand{\headrulewidth}{0pt}  % 去除页眉横线
+	\renewcommand{\footrulewidth}{0pt}  % 去除页脚横线
+	}
 
 \pagestyle{abstract}
 \setcounter{page}{1}					% 重制页面编号为1
@@ -223,6 +229,8 @@
 %% -------------------- 目录 --------------------
 \fancypagestyle{plain}{%
     \fancyhf{}  % 清空所有页眉页脚
+    \renewcommand{\headrulewidth}{0pt}  % 去除页眉横线
+    \renewcommand{\footrulewidth}{0pt}  % 去除页脚横线
 } 
 \pagestyle{empty}
 \tableofcontents   						% 载入目录

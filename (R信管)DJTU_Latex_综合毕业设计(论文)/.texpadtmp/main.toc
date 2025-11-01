@@ -39,6 +39,5 @@
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}总\hskip 1em\relax 结}{8}{chapter.6}%
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}表的格式示例(测试用)}{9}{chapter.7}%
 \contentsline {chapter}{谢\hskip 1em\relax 辞}{11}{chapter*.7}%
-\contentsline {chapter}{谢\hskip 1em\relax 辞}{11}{chapter*.7}%
 \contentsline {chapter}{参考文献}{12}{chapter*.8}%
 \contentsfinish 
