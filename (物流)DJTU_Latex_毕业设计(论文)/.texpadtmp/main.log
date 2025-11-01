@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.23)  1 NOV 2025 20:50
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.23)  1 NOV 2025 21:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1166,6 +1166,11 @@ Package fontspec Info: Font family 'STHeiti(0)' created for font 'STHeiti'
 
 File: figure/logo.png Graphic file (type bmp)
 <figure/logo.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
 File: figure/djtu.jpg Graphic file (type bmp)
 <figure/djtu.jpg>
 
@@ -1198,11 +1203,11 @@ Package fontspec Info: Font family 'STSong(1)' created for font 'STSong' with
 (fontspec)             <->"STSong/OT:language=dflt;embolden=4;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [1
@@ -1232,64 +1237,36 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-]) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/main.toc [3
-
-
-
-
-])
+]) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [4]
+ [3
+
+
+
+
+]
 \openout2 = `latex/Chapter.aux'.
 
  (./latex/Chapter.tex
 第一章
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 12.0pt
-(hyperref)                replaced by space on input line 4.
-
 [1
 
 
 
 
-] [2] [3]
+] [2]
 第二章
-File: figure/系统业务流程图.png Graphic file (type bmp)
-<figure/系统业务流程图.png>
-[4
-
-]
-第三章
-[5
-
-]
-第四章
-[6
-
-]
-第五章
-[7
-
-]
-第六章
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 12.0pt
-(hyperref)                replaced by space on input line 97.
-
-[8
-
-]
-第七章
 File: figure/example.png Graphic file (type bmp)
 <figure/example.png>
-) [9
+[3
 
-] [10]
+] [4]
+第三章
+) [5
+
+]
 \openout2 = `latex/Thanks.aux'.
 
  (./latex/Thanks.tex
@@ -1298,7 +1275,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.0pt
 (hyperref)                replaced by space on input line 1.
 
-) [11
+) [6
 
 
 
@@ -1336,24 +1313,24 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;embolden=4;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-[12
+[7
 
 
 
 ] (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/main.aux (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/latex/cover.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/latex/cn_abstract.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/latex/en_abstract.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/latex/Chapter.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/latex/Thanks.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EB7E22608963E0E793F2907247FF3AFC;4142.
+(rerunfilecheck)             Checksum: 9D5E249F3284A757EE1C26B790E17462;2275.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29692 strings out of 476683
- 627354 string characters out of 5804047
- 1874018 words of memory out of 5000000
- 49405 multiletter control sequences out of 15000+600000
+ 29823 strings out of 476683
+ 636005 string characters out of 5804047
+ 1869018 words of memory out of 5000000
+ 49537 multiletter control sequences out of 15000+600000
  533845 words of font info for 169 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,11n,97p,1195b,5151s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,97p,1195b,5153s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/main.pdf (17 pages).
+Output written on /Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/main.pdf (11 pages).

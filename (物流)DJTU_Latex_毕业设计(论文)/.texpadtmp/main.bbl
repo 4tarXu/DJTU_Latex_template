@@ -59,6 +59,7 @@
       \field{volume}{20}
       \field{year}{2023}
       \field{dateera}{ce}
+      \true{nocite}
       \field{pages}{47\bibrangedash 50}
       \range{pages}{4}
       \keyw{WXHK202322015}
@@ -115,6 +116,7 @@
       \field{volume}{13}
       \field{year}{2023}
       \field{dateera}{ce}
+      \true{nocite}
       \field{pages}{130\bibrangedash 133}
       \range{pages}{4}
       \verb{doi}
@@ -159,6 +161,7 @@
       \field{userf}{chinese}
       \field{year}{2006}
       \field{dateera}{ce}
+      \true{nocite}
       \keyw{王亚平2006}
     \endentry
     \entry{Sjostrand:2006za}{article}{}
@@ -224,6 +227,7 @@
       \field{volume}{05}
       \field{year}{2006}
       \field{dateera}{ce}
+      \true{nocite}
       \field{pages}{026}
       \range{pages}{1}
       \verb{doi}

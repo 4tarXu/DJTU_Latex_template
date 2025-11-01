@@ -3,7 +3,7 @@
 %	大连交通大学信管综合毕设latex模版——综合毕业设计(论文)
 %	创建日期：2025年4月19日
 %	最后修改日期：2025年10月31日
-%	创建人：管理科学与工程系 王晗、徐世达
+%	创建人：管理科学与工程系 物流教研室
 %   使用说明：使用XeLatex(2019+)进行编译，建议关闭拼写检查
 %	模版内容结构
 %		- 格式相关：main.tex(学生无需处理操作)
@@ -106,16 +106,16 @@
 \titlecontents{chapter}
 [0em] % 缩进量
 {\bfseries\songti\zihao{-4}} % 控制字体字号
-{\thecontentslabel\hspace{0em}} % 控制章节编号和名称的距离 
+{\thecontentslabel\hspace{1em}} % 控制章节编号和名称的距离 
 {} 
-{\titlerule*[3pt]{.}\hspace{-1em}\contentspage} % 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
+{\titlerule*[6pt]{.}\hspace{-1em}\contentspage} % 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
 
 \titlecontents{section}
 [1em] % 缩进量
 {\songti\zihao{-4}} % 控制字体字号
 {\thecontentslabel\hspace{1em}} % 控制小节编号和名称的距离 
 {} 
-{\titlerule*[3pt]{.}\hspace{-1em}\contentspage} % 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
+{\titlerule*[6pt]{.}\hspace{-1em}\contentspage} % 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
 
 
 \titlecontents{subsection}
@@ -123,7 +123,7 @@
 {\songti\zihao{-4}} % 控制字体字号
 {\thecontentslabel\hspace{1em}} % 控制子节编号和名称的距离
 {} 
-{\titlerule*[3pt]{.}\hspace{-1em}\contentspage}% 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
+{\titlerule*[6pt]{.}\hspace{-1em}\contentspage}% 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
 
 %==========================参考文献设置=============================
 \usepackage[%
@@ -252,9 +252,26 @@
 \include{latex/Thanks}                  % 导入谢辞
 
 
+
+
 %% -------------------- 参考文献 -------------------- 
 \renewcommand*{\bibfont}{\zihao{5}\songti}
  \printbibliography[title=参考文献,heading=bibintoc] % 导入参考文献
+
+
+
+
+参考文献书写格式说明：
+
+参考文献需另起一页，标题选用模板中的样式所定义的“标题1”，手动设置成字体：黑体，居中，字号：四号，行距：固定值20磅，段前、段后均为0。与参考文献正文部分空一行。
+
+参考文献示例如下：（字体为五号、宋体） 
+
+期刊类：[序号] 作者1,作者2,……作者n．文章名[J]．期刊名,出版年,卷次（期次）：论文在刊物中的页码。
+
+图书类：[序号] 作者1,作者2,……作者n．书名[M]．出版地：出版者,出版年。
+
+会议论文集：[序号] 作者1,作者2,……作者n．论文名[A].论文集名[C],出版地：出版者,出版年,论文在刊物中的页码。
 
 
 \end{document}
