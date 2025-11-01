@@ -1,0 +1,122 @@
+% -*- coding=utf-8 -*-
+
+%======================个人信息录入=================================
+% 题目：综合毕业设计题目
+\newcommand\thesisTitle{XXX系统的分析与实现} 
+   			
+% 姓名：学生姓名
+\newcommand\thesisAuthor{姓名(测试)} 	
+		   
+% 专业班级
+\newcommand\thesisClass{R信息管理2021-X}	
+	
+% 学生所在院系(默认无需更改)		
+\newcommand\thesisCollege{经济管理学院管理科学与工程系}				
+
+% 指导教师及职称
+% 第一组：
+%	- 教师：李修飞、高贺、王德广、申广忠
+%	- 职称：副教授、讲师、副教授、讲师
+% 第二组
+%	- 教师：王晗、莫东艳、杨晶、王春爽
+%	- 职称：副教授、副教授、讲师、讲师
+\newcommand\supervisor{王晗、莫东艳、杨晶、王春爽} 						% 指导教师
+\newcommand\supervisortitle{副教授、副教授、讲师、讲师} 					% 指导教师职称
+
+% 教师所在单位(默认无需更改)
+\newcommand\instituteone{经济管理学院管理科学与工程系} 				 
+\newcommand\institutetwo{轨道智能工程学院大数据科学与技术系} 			
+
+% 完成时间
+\newcommand\thesisDate{2025年11月16日}
+
+    
+%===================以下内容不要修改===========================
+
+% 定义校徽图片路径：figure/logo.png
+% \newcommand{\schoolLogo}{\includegraphics[width=1.02in,height=0.98in]{figure/logo.png}} % 校徽
+
+% 定义校名图片路径：figure/djtu.jpg
+\newcommand{\schoolName}{\includegraphics[width=8.56cm,height=1.98cm]{figure/djtu.jpg}} % 校名
+
+
+% 以下为封面内容
+{
+    % 设置封面主要字体为黑体
+	\heiti		% 设置封面主要字体为黑体
+    \setlength\parindent{0em}   % 首行缩进设置为0
+   
+    % 设置校徽、校名、题目居中对齐，使用\begin{center}和\end{center}包裹                            
+    \begin{center}
+        \zihao{-3} 
+        
+    % 校徽和校名图片后间隔距离
+%  \schoolLogo\\[0.5cm]
+   \schoolName\\[1.0\baselineskip]
+
+   % 毕业设计主标题
+   {\songti \zihao{-0} \bfseries 综合毕业设计调研报告}\\[40pt]
+   \vspace*{2.5\baselineskip}
+
+   % 题目位置
+   {\heiti \zihao{3} 题 \quad \quad 目\underline{\makebox[12cm][c]{\zihao{4} \thesisTitle}}}   
+   \vspace*{2.5\baselineskip}
+       
+    \end{center}
+
+
+    \renewcommand{\baselinestretch}{2}\selectfont                           % 设置声明的行间距
+    {
+        \begin{center}
+    
+    % 第一行：学生姓名 & 专业班级      
+    {\zihao{4} 学生姓名}   \underline{\makebox[12em][c]{\zihao{4}\thesisAuthor}}{\zihao{4} 专业班级}   \underline{\makebox[12em][c]{\zihao{4}\thesisClass}} 
+%	\par
+      
+    \vspace*{0.5\baselineskip}  
+            
+    % 第二行：所在院系      
+    {\zihao{4} 所在院系}   \underline{\makebox[29.25em][c]{\zihao{4}\thesisCollege}}
+    \vspace*{0.5\baselineskip}  
+            
+    % 第三行：指导教师      
+    {\zihao{4} 指导教师}   \underline{\makebox[29.25em][c]{\zihao{4}\supervisor}}
+    \vspace*{0.5\baselineskip}  
+    
+    % 第四行：职称      
+    {\zihao{4} 职\;\;\;\;\;\;\;称}   \underline{\makebox[29.25em][c]{\zihao{4}\supervisortitle}}
+    \vspace*{0.5\baselineskip}  
+            
+     % 第五行：所在单位1      
+    {\zihao{4} 所在单位}   \underline{\makebox[29.25em][c]{\zihao{4}\instituteone}}
+    \vspace*{0.5\baselineskip}  
+	
+	% 第六行：所在单位2      
+    {\zihao{4} \quad \quad \quad \quad}   \underline{\makebox[29.25em][c]{\zihao{4}\institutetwo}}
+	\par           
+            
+
+        \end{center}
+    }
+    
+    \vspace{1.2cm}
+    
+    % 完成日期
+    \begin{center}
+ 	{\zihao{4} 完成日期}
+        \makebox[5cm][c]{\zihao{4} \thesisDate}        
+    \end{center}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
