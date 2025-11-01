@@ -1,0 +1,260 @@
+% -*- coding=utf-8 -*-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	大连交通大学信管综合毕设latex模版——综合毕业设计(论文)
+%	创建日期：2025年4月19日
+%	最后修改日期：2025年10月31日
+%	创建人：管理科学与工程系 王晗、徐世达
+%   使用说明：使用XeLatex(2019+)进行编译，建议关闭拼写检查
+%	模版内容结构
+%		- 格式相关：main.tex(学生无需处理操作)
+%		- 论文内容：/latex目录下，包含封面(cover.tex)、中文摘要(cn_abstract.tex)、英文摘要(en_abstract)、正文(Chapter.tex)、谢辞(Thanks.tex)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%=============================文档类型==============================
+\documentclass[twoside, 12pt,openany, AutoFakeBold]{ctexbook}	% 文档类型
+%
+%	twoside命令：设置为双面排版，左右页边距会根据奇偶页自动调整
+%	12pt：正文字体大小
+%	openany：新的一章可以出现在左右两侧，方式ctexbook类型使得空白页出现
+%	AutoFakeBold：实现粗体形式宋体
+%
+%=============================宏包调用==============================
+\usepackage{wallpaper}	% 封面背景包
+\usepackage{amsmath,mathtools,amsthm,amsfonts,amssymb,bm}	% AMS包
+\usepackage{color}  % 字体背景颜色包
+\usepackage{xeCJK}  % 中文字体配置包
+\usepackage{ulem} % 下划线增强
+\usepackage{setspace} % 行距控制
+\usepackage{calc} % 计算长度
+\usepackage{ulem}
+\usepackage{setspace}
+\usepackage{varwidth}  % 新增可变宽度盒子支持
+\usepackage{xparse}    % 新增高级命令定义
+\usepackage{soul}  % 更强大的下划线支持
+\usepackage{tabularx}
+\usepackage{setspace}
+
+%==========================页面边距设置=============================
+\usepackage[a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm,headheight=15mm,headsep=4mm ,footskip=17.5mm]{geometry}	
+
+%	页边距：上2.5cm，下2.5cm，左2.5cm，右2.5cm。
+%	页眉顶端距离：1.5cm
+%	页脚地段距离：1.75cm
+
+%==========================页眉页脚设置=============================
+\usepackage{fancyhdr}	% 页眉页脚包
+\fancypagestyle{djtu}{
+	\fancyhf{}		% 清空所有定义
+	\fancyfoot[CE,CO]{\zihao{-5} \songti \thepage}      % 设置页脚为当前页码，居中,小五，数字1，2，3等
+	\fancyhead[CE]{\zihao{-5} \heiti 大连交通大学本科毕业设计（论文）}  % 偶数页眉，居中，小五，黑体 
+	\fancyhead[CO]{\zihao{-5} \heiti 大连交通大学本科毕业设计（论文）}  % 奇数页眉，居中，小五，黑体
+	}
+ \fancypagestyle{plain}{
+ 	\fancyhf{}		% 清空所有定义
+ 	\fancyfoot[CE,CO]{\zihao{-5} \songti \thepage}      % 设置页脚为当前页码，居中,小五，数字1，2，3等
+ 	\fancyhead[CE]{\zihao{-5} \heiti 大连交通大学 2026 届本科生综合毕业设计（论文）}  % 偶数页眉，居中，小五，黑体 
+ 	\fancyhead[CO]{\zihao{-5} \heiti 大连交通大学 2026 届本科生综合毕业设计（论文）}  % 奇数页眉，居中，小五，黑体
+     }
+% 定义摘要部分的页面样式：只显示页码，无页眉
+\fancypagestyle{abstract}{
+	\fancyhf{}		% 清空所有定义
+	\fancyfoot[CE,CO]{\zihao{-5} \thepage}      % 设置页脚为当前页码，居中,小五
+	}
+
+%==========================字体配置设置=============================
+\usepackage{fontspec}	% 字体配置宏包
+\setmainfont{Times New Roman} % 设置英文字体为新罗马字体
+
+%==========================段落相关设置=============================
+\usepackage{setspace} 	% 段落行距包
+\usepackage{indentfirst} %段落首行缩进命令包
+\usepackage{lipsum}
+\setlength{\baselineskip}{20pt}
+						% 行距的设定为20磅，需在\begin{document}中补充设置
+\raggedbottom			% 防止latex排版导致段落间距变大
+\setlength{\parindent}{2em}		% 首航缩进距离设置为2em，表示两个字符
+
+%==========================章节格式设置=============================
+\usepackage{ctex}
+\ctexset{ % 用来定制正文里的标题格式
+	chapter = {%
+		name = {第,章},
+		number = \chinese{chapter},              % 用中文数字显示章节号
+		format = {\heiti \zihao{3} \centering},       % 设置章节标题为3号黑体且居中
+		beforeskip = 0pt,			        % 段前行距0行	
+		afterskip = 20pt,			        % 段后行距0行
+		fixskip = true				        % 设置固定间距为true，抑制标题前后的多余间距
+	},
+	section = {%
+		number = \normalfont\arabic{chapter}.\normalfont\arabic{section} \hspace{-1em}, % 编号格式为1.1，编号与题目名之间的空格
+		format = {\heiti\zihao{4}\raggedright},   % section格式添加一条：左对齐
+        beforeskip = 0pt,	% 段前行距0行
+        afterskip = 0pt,	% 段后行距0行
+	},
+	subsection = {%
+		number = \normalfont\arabic{chapter}.\normalfont\arabic{section}.\normalfont\arabic{subsection} \hspace{-1em},% 编号格式为1.1.1，编号与题目名之间的空格
+		format = {\heiti\zihao{4}\raggedright},    % subsection格式添加一条：左对齐
+        beforeskip = 0pt,	% 段前行距0行
+        afterskip = 0pt		% 段后行距0行
+	},
+}
+
+%==========================目录格式设置=============================
+\usepackage{titletoc}		                % 目录定制包
+\renewcommand{\contentsname}{目\quad 录}		% “目录”两字之间空X格
+
+\titlecontents{chapter}
+[0em] % 缩进量
+{\bfseries\songti\zihao{-4}} % 控制字体字号
+{\thecontentslabel\hspace{0em}} % 控制章节编号和名称的距离 
+{} 
+{\titlerule*[3pt]{.}\hspace{-1em}\contentspage} % 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
+
+\titlecontents{section}
+[1em] % 缩进量
+{\songti\zihao{-4}} % 控制字体字号
+{\thecontentslabel\hspace{1em}} % 控制小节编号和名称的距离 
+{} 
+{\titlerule*[3pt]{.}\hspace{-1em}\contentspage} % 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
+
+
+\titlecontents{subsection}
+[2em] % 缩进量
+{\songti\zihao{-4}} % 控制字体字号
+{\thecontentslabel\hspace{1em}} % 控制子节编号和名称的距离
+{} 
+{\titlerule*[3pt]{.}\hspace{-1em}\contentspage}% 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
+
+%==========================参考文献设置=============================
+\usepackage[%
+	backend=biber,				% 设置使用biber进行编译，也可以使用bibtex，但是功能更少
+	style=gb7714-2015,			% 设置风格样式为国家标准gb7714-2015
+	sorting=none					% 设置排序按照年份，名字，标题进行排序，若想按照引用顺序排序，将其设置为none即可
+	]{biblatex}       			% 参考文献包
+\addbibresource{bib/ref.bib}    % 加载参考文献的文件
+\usepackage[hidelinks]{hyperref}  % 加载hyperref，实现参考文献引文跳转
+
+
+%==========================图表环境设置=============================
+\usepackage[inline]{enumitem}					% 列表工具包
+\usepackage{graphicx,ragged2e}					% 插图工具包
+\usepackage{subcaption}							% 子图标题包
+\usepackage{bicaption}							% 图片标题包
+\setlist{%	设置列表样式
+	topsep=0.3em, 			% 列表顶端的垂直空白
+	partopsep=0pt, 			% 列表环境前面紧接着一个空白行时其顶端的额外垂直空白
+	itemsep=0ex plus 0.1ex, % 列表项之间的额外垂直空白
+	parsep=0pt, 			% 列表项内的段落之间的垂直空白
+	leftmargin=1.5em, 		% 环境的左边界和列表之间的水平距离
+	rightmargin=0em, 		% 环境的右边界和列表之间的水平距离
+	labelsep=0.5em, 		% 包含标签的盒子与列表项的第一行文本之间的间隔
+	labelwidth=2em 			% 包含标签的盒子的正常宽度；若实际宽度更宽，则使用实际宽度。
+}
+\graphicspath{figure/}		% 设置图片存放目录
+\usepackage{longtable,booktabs} % 跨页长表格
+\usepackage{caption}
+\captionsetup[table]{skip=0pt} % 设置表格标题与内容之间无间距
+\captionsetup[figure]{skip=10pt} % 设置图片标题与内容之间无间距
+\renewcommand{\arraystretch}{1.5} % 扩大表格每行文字距离
+\DeclareCaptionLabelSeparator{quadspace}{\quad}  % 定义分隔符为\quad
+\captionsetup[table]{
+    labelsep=quadspace,                   % 标签与标题之间的分隔符
+    justification=centering,              % 标题居中
+    font=small,                           % 字体大小
+}
+\captionsetup[figure]{
+    labelsep=quadspace,                   % 标签与标题之间的分隔符
+    justification=centering,              % 标题居中
+    font=small,                           % 字体大小
+}
+% 修改表格编号格式为 "章号-表格序号"
+\renewcommand{\thetable}{\arabic{chapter}-\arabic{table}}
+% 修改图片编号格式为 "章号-图片序号"
+\renewcommand{\thefigure}{\arabic{chapter}-\arabic{figure}}
+
+\usepackage{enumitem} % 必需宏包(用于(1)、(2)...)
+\usepackage{pifont}   % 提供带圈数字符号
+
+\newlist{customenum}{enumerate}{1}
+\setlist[customenum]{
+    label=(\arabic*),   % 标签格式
+    leftmargin=*,       % 左对齐
+    labelwidth=1em,     % 标签宽度
+    align=left          % 对齐方式
+}
+
+\newlist{customsubenum}{enumerate}{1}
+\setlist[customsubenum]{
+    label=\ding{172},   % 使用CJK带圈数字符号
+    leftmargin=2em,     % 调整缩进量
+    labelwidth=1.5em,
+    align=left
+}
+
+% 禁用mainmatter的分页，删除目录后一页产生的空白页
+\makeatletter
+\renewcommand{\mainmatter}{%
+  \clearpage
+  \@mainmattertrue
+  \pagenumbering{arabic}
+}
+\makeatother
+
+\begin{document}
+
+%==========================格式补充设置=============================
+\setlength{\baselineskip}{20pt}	% 设置行距为20磅
+
+%==========================模版载入设置=============================
+\frontmatter		% 关闭章节序号，页码默认使用小写罗马数字
+\thispagestyle{empty}
+
+%% -------------------- 封面 --------------------  
+\include{latex/cover}					% 导入封面
+
+%% -------------------- 中英文摘要 -------------------- 
+\fancypagestyle{plain}{
+	\fancyhf{}		% 清空所有定义
+	\fancyfoot[CE,CO]{\zihao{-5} \songti \thepage}      % 设置页脚为当前页码，居中,小五
+	\renewcommand{\headrulewidth}{0pt}  % 去除页眉横线
+	\renewcommand{\footrulewidth}{0pt}  % 去除页脚横线
+	}
+
+\pagestyle{abstract}
+\setcounter{page}{1}					% 重制页面编号为1
+\pagenumbering{Roman} 					% 摘要页码使用大写罗马数字
+\include{latex/cn_abstract}				% 导入中文摘要  
+\include{latex/en_abstract}				% 导入英文摘要
+ 
+%% -------------------- 目录 --------------------
+\fancypagestyle{plain}{%
+    \fancyhf{}  % 清空所有页眉页脚
+    \renewcommand{\headrulewidth}{0pt}  % 去除页眉横线
+    \renewcommand{\footrulewidth}{0pt}  % 去除页脚横线
+} 
+\pagestyle{empty}
+\tableofcontents   						% 载入目录
+\thispagestyle{empty}
+\clearpage  % 确保mainmatter从当前页开始
+
+%% -------------------- 页眉页脚 --------------------  
+\mainmatter								% 开启章节序号计数，重置页码，页码使用阿拉伯数字
+
+\fancypagestyle{plain}{\pagestyle{djtu}} % 设置默认的页面类型plain为自定义样式fancy
+\pagestyle{djtu}
+						% 设置页面布局为自定义的myfancy
+						
+%% -------------------- 正文 -------------------- 				
+\include{latex/Chapter}                 % 载入章节内容
+\backmatter                             	% 关闭章节序号，对页码没有影响
+
+%% -------------------- 谢辞 -------------------- 	
+\include{latex/Thanks}                  % 导入谢辞
+
+
+%% -------------------- 参考文献 -------------------- 
+\renewcommand*{\bibfont}{\zihao{5}\songti}
+ \printbibliography[title=参考文献,heading=bibintoc] % 导入参考文献
+
+
+\end{document}
