@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.23)  1 NOV 2025 22:05
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.23)  2 NOV 2025 22:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1089,7 +1089,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \headheight=42.67912pt
 * \headsep=11.38109pt
 * \topskip=12.0pt
-* \footskip=49.79231pt
+* \footskip=4.97922pt
 * \marginparwidth=98.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
@@ -1217,13 +1217,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 \openout2 = `latex/cn_abstract.aux'.
 
- (./latex/cn_abstract.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 12.0pt
-(hyperref)                replaced by space on input line 3.
-
-[1
+ (./latex/cn_abstract.tex [1
 
 
 
@@ -1251,20 +1245,48 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (./latex/Chapter.tex
 第一章
+
+Package fancyhdr Warning: \footskip is too small (4.97922pt): 
+(fancyhdr)                Make it at least 11.93834pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.93834pt}.
+
 [1
 
 
 
 
-] [2]
+]
+
+Package fancyhdr Warning: \footskip is too small (4.97922pt): 
+(fancyhdr)                Make it at least 11.93834pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.93834pt}.
+
+[2]
 第二章
 File: figure/example.png Graphic file (type bmp)
 <figure/example.png>
+
+Package fancyhdr Warning: \footskip is too small (4.97922pt): 
+(fancyhdr)                Make it at least 11.93834pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.93834pt}.
+
 [3
 
-] [4]
+]
+
+Package fancyhdr Warning: \footskip is too small (4.97922pt): 
+(fancyhdr)                Make it at least 11.93834pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.93834pt}.
+
+[4]
 第三章
-) [5
+)
+
+Package fancyhdr Warning: \footskip is too small (4.97922pt): 
+(fancyhdr)                Make it at least 11.93834pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.93834pt}.
+
+[5
 
 ]
 \openout2 = `latex/Thanks.aux'.
@@ -1275,7 +1297,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.0pt
 (hyperref)                replaced by space on input line 1.
 
-) [6
+)
+
+Package fancyhdr Warning: \footskip is too small (4.97922pt): 
+(fancyhdr)                Make it at least 11.93834pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.93834pt}.
+
+[6
 
 
 
@@ -1313,13 +1341,18 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;embolden=4;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
+
+Package fancyhdr Warning: \footskip is too small (4.97922pt): 
+(fancyhdr)                Make it at least 11.93834pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.93834pt}.
+
 [7
 
 
 
 ] (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/main.aux (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/latex/cover.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/latex/cn_abstract.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/latex/en_abstract.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/latex/Chapter.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流)DJTU_Latex_毕业设计(论文)/.texpadtmp/latex/Thanks.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9D5E249F3284A757EE1C26B790E17462;2275.
+(rerunfilecheck)             Checksum: 2718DB8EB14F0F69AC36569D43BE1168;2121.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
