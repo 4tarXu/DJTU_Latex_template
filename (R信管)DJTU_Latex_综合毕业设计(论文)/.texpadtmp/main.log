@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.23)  2 NOV 2025 16:27
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.23)  2 NOV 2025 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1315,36 +1315,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 第七章
 File: figure/example.png Graphic file (type bmp)
 <figure/example.png>
+) [9
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
- []
-
-[9
-
-]
-./latex/Chapter.tex:177: Missing $ inserted.
-<inserted text> 
-                $
-l.177 \sum
-                           \\             % ∑
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./latex/Chapter.tex:186: Missing $ inserted.
-<inserted text> 
-                $
-l.186 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--186
-
- []
-
-) [10]
+] [10]
 \openout2 = `latex/Thanks.aux'.
 
  (./latex/Thanks.tex
@@ -1403,12 +1376,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30945 strings out of 476683
- 648052 string characters out of 5804047
+ 30943 strings out of 476683
+ 648025 string characters out of 5804047
  1874018 words of memory out of 5000000
- 50641 multiletter control sequences out of 15000+600000
+ 50639 multiletter control sequences out of 15000+600000
  533869 words of font info for 172 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,12n,97p,1195b,5151s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,11n,97p,1195b,5150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(R信管)DJTU_Latex_综合毕业设计(论文)/.texpadtmp/main.pdf (17 pages).
