@@ -35,7 +35,7 @@
 \usepackage{setspace}
 
 %==========================页面边距设置=============================
-\usepackage[a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm,headheight=15mm,headsep=4mm ,footskip=17.5mm]{geometry}	
+\usepackage[a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm,headheight=15mm,headsep=4mm ,footskip=1.75mm]{geometry}	
 
 %	页边距：上2.5cm，下2.5cm，左2.5cm，右2.5cm。
 %	页眉顶端距离：1.5cm
@@ -46,8 +46,8 @@
 \fancypagestyle{djtu}{
 	\fancyhf{}		% 清空所有定义
 	\fancyfoot[CE,CO]{\zihao{-5} \songti \thepage}      % 设置页脚为当前页码，居中,小五，数字1，2，3等
-	\fancyhead[CE]{\zihao{-5} \heiti 大连交通大学学年论文}  % 偶数页眉，居中，小五，黑体 
-	\fancyhead[CO]{\zihao{-5} \heiti 大连交通大学学年论文}  % 奇数页眉，居中，小五，黑体
+	\fancyhead[CE]{\zihao{-5} \heiti 大连交通大学2022级学年论文}  % 偶数页眉，居中，小五，黑体 
+	\fancyhead[CO]{\zihao{-5} \heiti 大连交通大学2022级学年论文}  % 奇数页眉，居中，小五，黑体
 	}
  \fancypagestyle{plain}{
  	\fancyhf{}		% 清空所有定义
@@ -111,15 +111,14 @@
 {\titlerule*[6pt]{.}\hspace{-1em}\contentspage} % 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
 
 \titlecontents{section}
-[1em] % 缩进量
+[0em] % 缩进量
 {\songti\zihao{-4}} % 控制字体字号
 {\thecontentslabel\hspace{1em}} % 控制小节编号和名称的距离 
 {} 
 {\titlerule*[6pt]{.}\hspace{-1em}\contentspage} % 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
 
-
 \titlecontents{subsection}
-[2em] % 缩进量
+[0em] % 缩进量
 {\songti\zihao{-4}} % 控制字体字号
 {\thecontentslabel\hspace{1em}} % 控制子节编号和名称的距离
 {} 
@@ -215,7 +214,6 @@
 %% -------------------- 中英文摘要 -------------------- 
 \fancypagestyle{plain}{
 	\fancyhf{}		% 清空所有定义
-	\fancyfoot[CE,CO]{\zihao{-5} \songti \thepage}      % 设置页脚为当前页码，居中,小五
 	\renewcommand{\headrulewidth}{0pt}  % 去除页眉横线
 	\renewcommand{\footrulewidth}{0pt}  % 去除页脚横线
 	}
@@ -261,17 +259,6 @@
 
 
 
-参考文献书写格式说明：
-
-参考文献需另起一页，标题选用模板中的样式所定义的“标题1”，手动设置成字体：黑体，居中，字号：四号，行距：固定值20磅，段前、段后均为0。与参考文献正文部分空一行。
-
-参考文献示例如下：（字体为五号、宋体） 
-
-期刊类：[序号] 作者1,作者2,……作者n．文章名[J]．期刊名,出版年,卷次（期次）：论文在刊物中的页码。
-
-图书类：[序号] 作者1,作者2,……作者n．书名[M]．出版地：出版者,出版年。
-
-会议论文集：[序号] 作者1,作者2,……作者n．论文名[A].论文集名[C],出版地：出版者,出版年,论文在刊物中的页码。
 
 
 \end{document}

@@ -24,11 +24,11 @@
 
 %===================以下内容不要修改===========================
 
-% 定义校徽图片路径：figure/logo.png
- \newcommand{\score}{\includegraphics[width=5cm]{figure/成绩.png}} % 校徽
+% 定义成绩图片路径：figure/logo.png
+ \newcommand{\score}{\includegraphics[width=4.63cm]{figure/成绩.png}} 
 
 % 定义校名图片路径：figure/djtu.jpg
-\newcommand{\schoolName}{\includegraphics[width=7.26cm,height=1.85cm]{figure/djtu.jpg}} % 校名
+\newcommand{\schoolName}{\includegraphics[width=7.6cm,height=1.88cm]{figure/djtu.jpg}} % 校名
 
 
 % 以下为封面内容
@@ -39,9 +39,9 @@
 
 %成绩方框右对齐
 \hfill   
-\score\\[1cm]
+\score\\[40pt]
    
-    % 设置校徽、校名、题目居中对齐，使用\begin{center}和\end{center}包裹                            
+    % 设置成绩、校名、题目居中对齐，使用\begin{center}和\end{center}包裹                            
     \begin{center}
         \zihao{-3} 
         
@@ -50,13 +50,13 @@
    \schoolName\\[1.0\baselineskip]
 
    % 毕业设计主标题
-   {\songti \zihao{0} \bfseries 学\; 年\;  论\;  文} \\[1.0\baselineskip]
-   \vspace*{2.0\baselineskip}
+   {\songti \zihao{0} \bfseries 学\; 年\;  论\;  文} \\[2.5\baselineskip]
+%   \vspace*{1.5\baselineskip}
 
 
    % 题目位置
    {\heiti \zihao{3} 题 \quad \quad 目\underline{\makebox[13cm][c]{\zihao{4} \thesisTitle}}}   
-   \vspace*{2.5\baselineskip}
+   \vspace*{1.2\baselineskip}
        
     \end{center}
 
@@ -86,7 +86,7 @@
         \end{center}
     }
     
-    \vspace{1.2cm}
+    \vspace{3.5\baselineskip}
     
     % 完成日期
     \begin{center}
