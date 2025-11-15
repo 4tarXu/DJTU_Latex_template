@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {\normalfont 1.\normalfont 4 \hspace {-1em}}各章之间的分隔符设置}{1}{section.1.4}%
 \contentsline {section}{\numberline {\normalfont 1.\normalfont 5 \hspace {-1em}}正文中的编号}{1}{section.1.5}%
 \contentsline {section}{\numberline {\normalfont 1.\normalfont 6 \hspace {-1em}}参考文献}{1}{section.1.6}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}图标格式说明}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}图表格式说明}{3}{chapter.2}%
 \contentsline {section}{\numberline {\normalfont 2.\normalfont 1 \hspace {-1em}}表的格式说明}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {\normalfont 2.\normalfont 1.\normalfont 1 \hspace {-1em}}表的格式示例}{3}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {\normalfont 2.\normalfont 1.\normalfont 2 \hspace {-1em}}表的格式描述}{3}{subsection.2.1.2}%
