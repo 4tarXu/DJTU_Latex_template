@@ -2920,6 +2920,10 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib/ref.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1" nocite="1">CXYY202331031</bcf:citekey>
+    <bcf:citekey order="2" intorder="2" nocite="1">E598:1974sol</bcf:citekey>
+    <bcf:citekey order="3" intorder="3" nocite="1">PhysRevLett.33.1406</bcf:citekey>
+    <bcf:citekey order="4" intorder="4" nocite="1">Sjostrand:2006za</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

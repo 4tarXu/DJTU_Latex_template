@@ -1,8 +1,8 @@
-PWD /Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(R信管)DJTU_Latex_综合毕业设计(论文)
+PWD /Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/DJTU_Latex_综合毕业设计(论文)
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(R信管)DJTU_Latex_综合毕业设计(论文)/main.tex
+INPUT /Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/DJTU_Latex_综合毕业设计(论文)/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/ctex/ctexbook.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/ctex/ctexbook.cls
@@ -626,37 +626,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty

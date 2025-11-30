@@ -1,0 +1,161 @@
+% -*- coding=utf-8 -*-
+
+%======================个人信息录入=================================
+% 分类号
+\newcommand\classifiNum{ABC} 	
+% 学校代号
+\newcommand\schoolNum{10150} 	
+% UDC
+\newcommand\udcNum{ABC} 	
+% 学号
+\newcommand\thesisAuthorNum{20231001} 
+
+% 中文题目：
+\newcommand\cnthesisTitle{中文题目} 
+% 英文题目：
+\newcommand\enthesisTitle{英文题目}      			
+% 姓名：学生姓名
+\newcommand\thesisAuthor{姓名(测试)} 	
+% 校内导师及职称
+\newcommand\insupervisor{王晗(副教授)；徐世达(讲师)} 
+% 行业产业导师及职称
+\newcommand\outsupervisor{毛钧(高级工程师)} 		   
+% 专业名称
+\newcommand\thesisClass{物流工程与管理}	
+% 研究方向
+\newcommand\researchArea{研究方向}
+% 申请学位类别
+\newcommand\thesisclassifi{全日制专业硕士} 
+% 论文答辩日期
+\newcommand\thesisDate{2025年11月16日}	
+% 学位授予单位		
+\newcommand\thesisCollege{大连交通大学}				
+
+%===================以下内容不要修改===========================
+
+% 定义校徽图片路径：figure/logo.png
+% \newcommand{\schoolLogo}{\includegraphics[width=1.02in,height=0.98in]{figure/logo.png}} % 校徽
+
+% 定义校名图片路径：figure/djtu.jpg
+\newcommand{\schoolName}{\includegraphics[width=11.55cm,height=2.08cm]{figure/djtu.png}} % 校名
+
+
+% 以下为封面内容
+{
+    % 设置封面主要字体为黑体
+	\heiti		% 设置封面主要字体为黑体
+    \setlength\parindent{0em}   % 首行缩进设置为0
+ 
+   
+    % 设置校徽、校名、题目居中对齐，使用\begin{center}和\end{center}包裹                            
+    \begin{center}
+        \zihao{-3} 
+  
+    % 首行：分类号 & 学校代号      
+    {\songti\zihao{4} 分类号：}   \underline{\makebox[28ex][c]{\zihao{4}\classifiNum}}{\songti\zihao{4} 学校代号}   \underline{\makebox[15ex][c]{\zihao{4}\schoolNum}}       
+    
+    % 首行：UDC & 学号      
+    {\songti\zihao{4} \;U\;D\;C：}   \underline{\makebox[28ex][c]{\zihao{4}\udcNum}}{\songti\zihao{4} 学\;\;\;\;\;\;\;号}   \underline{\makebox[15ex][c]{\zihao{4}\thesisAuthorNum}}       
+    \vspace*{3\baselineskip}  
+      
+    % 校徽和校名图片后间隔距离
+%  \schoolLogo\\[0.5cm]
+   \schoolName\\[1.0\baselineskip]
+
+   % 毕业设计主标题
+   {\songti \zihao{-0} \bfseries 硕\;\; 士\;\; 学\;\; 位\;\; 论\;\; 文} \\[1.0\baselineskip]
+   \vspace*{1.0\baselineskip}
+
+   % 中文题目
+   {\songti \zihao{2} \bfseries \cnthesisTitle} \\[0.5\baselineskip]
+   
+   % 英文题目
+   {\songti \zihao{2} \bfseries \enthesisTitle} \\[1.0\baselineskip] 
+       
+    \end{center}
+
+    \renewcommand{\baselinestretch}{2}\selectfont                           % 设置声明的行间距
+    {
+        \begin{center}
+    
+    % 第一行：学生姓名
+    {\zihao{4} 学\;\;\;生\;\;\;姓\;\;\;名\;\;\;:}   \underline{\makebox[25em][c]{\zihao{4}\thesisAuthor}}
+    \vspace*{0.5\baselineskip} 
+    
+    % 第二行：校内导师及职称     
+    {\zihao{4} 校内导师及职称:}   \underline{\makebox[25em][c]{\zihao{4}\insupervisor}}
+    \vspace*{0.5\baselineskip}     
+ 
+    % 第三行：行业产业导师及职称    
+    {\zihao{-4} 行业产业导师及职称:}   \underline{\makebox[25em][c]{\zihao{4}\outsupervisor}}
+    \vspace*{0.5\baselineskip}  
+ 
+    % 第四行：专业名称
+    {\zihao{4} 专\;\;\;业\;\;\;名\;\;\;称\;\;\;:}   \underline{\makebox[25em][c]{\zihao{4}\thesisClass}}
+    \vspace*{0.5\baselineskip} 
+
+    % 第五行：研究方向
+    {\zihao{4} 研\;\;\;究\;\;\;方\;\;\;向\;\;\;:}   \underline{\makebox[25em][c]{\zihao{4}\researchArea}}
+    \vspace*{0.5\baselineskip} 
+ 
+    % 第六行：申请学位类别
+    {\zihao{4} 申\;请\;学\;位\;类\;别\;:}   \underline{\makebox[25em][c]{\zihao{4}\thesisclassifi}}
+    \vspace*{0.5\baselineskip}    
+
+    % 第七行：论文答辩日期
+    {\zihao{4} 论\;文\;答\;辨\;日\;期\;:}   \underline{\makebox[25em][c]{\zihao{4}\thesisDate}}
+    \vspace*{0.5\baselineskip} 
+         
+    % 第八行：学位授予单位
+    {\zihao{4} 学\;位\;授\;予\;单\;位\;:}   \underline{\makebox[25em][c]{\zihao{4}\thesisCollege}}
+    \vspace*{0.5\baselineskip}           
+
+        \end{center}
+    }
+    
+}
+
+% 硕士学位论文独创性声明及使用授权书
+\newpage
+  \thispagestyle{empty}
+  \begin{center}{\heiti \zihao{-2} 大连交通大学学位论文独创性声明}\end{center}
+    \vspace*{1\baselineskip}   
+  {\songti \zihao{-4}
+  
+ 本人声明所呈交的学位论文是本人在导师指导下进行的研究工作及取得的研究成果。尽我所知，除了文中特别加以标注和致谢及参考文献的地方外，论文中不包含他人或集体已经发表或撰写过的研究成果，也不包含为获得 \underline{\textbf{大连交通大学}} 或其他教育机构的学位或证书而使用过的材料。与我一同工作的同志对本研究所做的任何贡献均已在论文中作了明确的说明并表示谢意。
+  \par \vspace*{20pt}
+  学位论文作者签名: \hspace{3.5cm}\hfill \par
+  \hfill  年\hspace{1cm}月\hspace{1cm}日
+  }
+
+\vfill
+
+\begin{center}{\heiti \zihao{-2} 这页内容不对，手动打印替换}\end{center}
+  \par\vspace*{40pt}
+  \setlength{\baselineskip}{23pt}
+  {\songti \zihao{-4}
+  本学位论文作者完全了解成都理工大学有关保留、使用学位论文的规定，有权保留并向国家有关部门或机构送交论文的复印件和磁盘，允许论文被查阅和借阅。本人授权成都理工大学可以将学位论文的全部或部分内容编入有关数据库进行检索，可以采用影印、缩印或扫描等复制手段保存、汇编学位论文。
+
+  （保密的学位论文在解密后适用本授权书）
+  \par \vspace*{20pt}
+  学位论文作者签名: \hspace{3.5cm}\hfill \par
+  学位论文作者导师签名: \hspace{3.5cm}\hfill \par
+  \hfill   年\hspace{1cm}月\hspace{1cm}日
+  }
+
+  \null
+  \newpage
+  \thispagestyle{empty}
+  \cleardoublepage
+
+
+
+
+
+
+
+
+
+
+
+

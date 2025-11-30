@@ -1,15 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '/Users/xushida/Nutstore Files/æçåæäº/å¤§è¿äº¤éå¤§å­¦(æ°)/æå­¦/2025ç§-ç»¼åæ¯è®¾-(ä¿¡ç®¡)/Githubåæ­¥ç¨/DJTU_Latex_template/(ä¿¡ç®¡)DJTU_Latex_æç®æ£ç´¢ä¸å­¦å¹´è®ºæ/.texpadtmp/main.blg'
-[27] biber-darwin:340> INFO - === Thu Nov 13, 2025, 23:06:07
-[101] Biber.pm:419> INFO - Reading '/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(信管)DJTU_Latex_文献检索与学年论文/.texpadtmp/main.bcf'
-[145] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
-[152] Biber.pm:4419> INFO - Processing section 0
-[156] Biber.pm:4610> INFO - Looking for bibtex file '/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(信管)DJTU_Latex_文献检索与学年论文/bib/ref.bib' for section 0
-[157] bibtex.pm:1713> INFO - LaTeX decoding ...
-[161] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(信管)DJTU_Latex_文献检索与学年论文/bib/ref.bib'
-[180] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[180] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[180] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[180] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[180] bbl.pm:660> INFO - Writing '/Users/xushida/Nutstore Files/æçåæäº/å¤§è¿äº¤éå¤§å­¦(æ°)/æå­¦/2025ç§-ç»¼åæ¯è®¾-(ä¿¡ç®¡)/Githubåæ­¥ç¨/DJTU_Latex_template/(ä¿¡ç®¡)DJTU_Latex_æç®æ£ç´¢ä¸å­¦å¹´è®ºæ/.texpadtmp/main.bbl' with encoding 'UTF-8'
-[181] bbl.pm:763> INFO - Output to /Users/xushida/Nutstore Files/æçåæäº/å¤§è¿äº¤éå¤§å­¦(æ°)/æå­¦/2025ç§-ç»¼åæ¯è®¾-(ä¿¡ç®¡)/Githubåæ­¥ç¨/DJTU_Latex_template/(ä¿¡ç®¡)DJTU_Latex_æç®æ£ç´¢ä¸å­¦å¹´è®ºæ/.texpadtmp/main.bbl
+[29] biber-darwin:340> INFO - === Mon Nov 17, 2025, 14:07:26
+[106] Biber.pm:419> INFO - Reading '/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(信管)DJTU_Latex_文献检索与学年论文/.texpadtmp/main.bcf'
+[149] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[156] bbl.pm:660> INFO - Writing '/Users/xushida/Nutstore Files/æçåæäº/å¤§è¿äº¤éå¤§å­¦(æ°)/æå­¦/2025ç§-ç»¼åæ¯è®¾-(ä¿¡ç®¡)/Githubåæ­¥ç¨/DJTU_Latex_template/(ä¿¡ç®¡)DJTU_Latex_æç®æ£ç´¢ä¸å­¦å¹´è®ºæ/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[156] bbl.pm:763> INFO - Output to /Users/xushida/Nutstore Files/æçåæäº/å¤§è¿äº¤éå¤§å­¦(æ°)/æå­¦/2025ç§-ç»¼åæ¯è®¾-(ä¿¡ç®¡)/Githubåæ­¥ç¨/DJTU_Latex_template/(ä¿¡ç®¡)DJTU_Latex_æç®æ£ç´¢ä¸å­¦å¹´è®ºæ/.texpadtmp/main.bbl
+[156] Biber.pm:131> WARN - The file '/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(信管)DJTU_Latex_文献检索与学年论文/.texpadtmp/main.bcf' does not contain any citations!
+[156] Biber.pm:133> INFO - WARNINGS: 1

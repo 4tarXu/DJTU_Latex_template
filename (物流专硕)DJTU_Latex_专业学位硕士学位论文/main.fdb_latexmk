@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1764479859 "/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(R信管)DJTU_Latex_综合毕业设计(论文)/main.tex" "main.pdf" "main" 1764479859 2
-  "/System/Library/Fonts/Menlo.ttc" 1761700864 2156036 ec05dfca6821d85440da0899493002c3 ""
-  "/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(R信管)DJTU_Latex_综合毕业设计(论文)/main.tex" 1764479858 11883 7ccabc01a11bca70934720f80e411191 ""
+["pdflatex"] 1762701106 "/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/DJTU_Latex_综合毕业设计(论文)/main.tex" "main.pdf" "main" 1762701107 2
+  "/System/Library/Fonts/Menlo.ttc" 1758783812 2156036 ec05dfca6821d85440da0899493002c3 ""
+  "/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/DJTU_Latex_综合毕业设计(论文)/main.tex" 1762700679 11822 351cf0378f3bb0307150eb66357e6cc1 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -67,16 +67,12 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1673989714 30429 213676d4c7327a21d91ddaed900e7b81 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty" 1677186603 6107 5cfea8a675c58918b8c04be10261e48c ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1675461949 6812 3c152a1c8d562d7b7291c4839b61a5c3 ""
-  "/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg" 1677530001 1829 d8258b7d94f5f955e70c623e525f9f45 ""
-  "/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty" 1677530001 80947 75a96bb4c9f40ae31d54a01d924df2ff ""
-  "/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty" 1677530001 77021 d05e9115c67855816136d82929db8892 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty" 1656621545 62269 5c1837a5bc5db4c0d255eedc225ca44b ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty" 1616101747 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty" 1670275497 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty" 1667332637 12691 5b542990fe866f3d772f71346cf85b95 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty" 1654720880 13231 b52297489a0e9d929aae403417d92a02 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty" 1654720880 10214 de3e21cfc0eccc98ca7f8dac0ef263d2 ""
-  "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty" 1654720880 32329 5d201ab4b4c773e7c876c2a052b07be3 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty" 1654720880 7147 be6981d9f5d866a5634048c4a11814a9 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty" 1238697683 10894 d359a13923460b2a73d4312d613554c8 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/wallpaper/wallpaper.sty" 1161102852 6919 f87ec89c767393dfb3b9adfd163539b0 ""
@@ -87,8 +83,8 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1692794205 7883453 795b8b1907749f7e509bba586a15322b ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "main.aux" 1764479859 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "main.tex" 1764479858 11883 7ccabc01a11bca70934720f80e411191 ""
+  "main.aux" 1762701106 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1762700679 11822 351cf0378f3bb0307150eb66357e6cc1 ""
   (generated)
   "main.aux"
   "main.log"
