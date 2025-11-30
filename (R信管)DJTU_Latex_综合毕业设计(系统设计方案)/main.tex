@@ -1,8 +1,8 @@
 % -*- coding=utf-8 -*-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	大连交通大学信管综合毕设latex模版——综合毕业设计(论文)
+%	大连交通大学信管综合毕设latex模版——综合毕业设计(系统设计方案)
 %	创建日期：2025年4月19日
-%	最后修改日期：2025年10月31日
+%	最后修改日期：2025年11月30日
 %	创建人：管理科学与工程系 王晗、徐世达
 %   使用说明：使用XeLatex(2019+)进行编译，建议关闭拼写检查
 %	模版内容结构
@@ -35,9 +35,11 @@
 \usepackage{setspace}
 \usepackage{listings}
 \usepackage{multicol} % 多列布局包
-
+\usepackage{array} % 表格列宽
+\usepackage{makecell}
+\usepackage{lipsum}
 %==========================页面边距设置=============================
-\usepackage[a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm,headheight=15mm,headsep=4mm ,footskip=17.5mm]{geometry}	
+\usepackage[a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm,headheight=15mm,headsep=4mm ,footskip=10mm]{geometry}	
 
 %	页边距：上2.5cm，下2.5cm，左2.5cm，右2.5cm。
 %	页眉顶端距离：1.5cm
@@ -45,17 +47,27 @@
 
 %==========================页眉页脚设置=============================
 \usepackage{fancyhdr}	% 页眉页脚包
+
+% 更改页眉线粗细
+\makeatletter
+\renewcommand{\headrule}{%
+  \hrule width\headwidth height 0.75pt% 细线（0.4磅）
+ \vskip 0.5pt% 间距
+}
+\makeatother
+
+
 \fancypagestyle{djtu}{
 	\fancyhf{}		% 清空所有定义
 	\fancyfoot[CE,CO]{\zihao{-5} \songti \thepage}      % 设置页脚为当前页码，居中,小五，数字1，2，3等
-	\fancyhead[CE]{\zihao{-5} \heiti 大连交通大学 2026 届本科生综合毕业设计（论文）}  % 偶数页眉，居中，小五，黑体 
-	\fancyhead[CO]{\zihao{-5} \heiti 大连交通大学 2024 届本科生综合毕业设计（论文）}  % 奇数页眉，居中，小五，黑体
+	\fancyhead[CE]{\zihao{-5} \heiti 大连交通大学 2026 届本科生综合毕业设计（系统设计方案）}  % 偶数页眉，居中，小五，黑体 
+	\fancyhead[CO]{\zihao{-5} \heiti 大连交通大学 2026 届本科生综合毕业设计（系统设计方案）}  % 奇数页眉，居中，小五，黑体
 	}
  \fancypagestyle{plain}{
  	\fancyhf{}		% 清空所有定义
  	\fancyfoot[CE,CO]{\zihao{-5} \songti \thepage}      % 设置页脚为当前页码，居中,小五，数字1，2，3等
- 	\fancyhead[CE]{\zihao{-5} \heiti 大连交通大学 2026 届本科生综合毕业设计（论文）}  % 偶数页眉，居中，小五，黑体 
- 	\fancyhead[CO]{\zihao{-5} \heiti 大连交通大学 2026 届本科生综合毕业设计（论文）}  % 奇数页眉，居中，小五，黑体
+ 	\fancyhead[CE]{\zihao{-5} \heiti 大连交通大学 2026 届本科生综合毕业设计（系统设计方案）}  % 偶数页眉，居中，小五，黑体 
+ 	\fancyhead[CO]{\zihao{-5} \heiti 大连交通大学 2026 届本科生综合毕业设计（系统设计方案）}  % 奇数页眉，居中，小五，黑体
      }
 % 定义摘要部分的页面样式：只显示页码，无页眉
 \fancypagestyle{abstract}{
@@ -80,21 +92,21 @@
 \usepackage{ctex}
 \ctexset{ % 用来定制正文里的标题格式
 	chapter = {%
-		name = {第,章},
-		number = \chinese{chapter},              % 用中文数字显示章节号
+		name = {},
+		number = \normalfont\arabic{chapter},              % 用中文数字显示章节号
 		format = {\heiti \zihao{3} \centering},       % 设置章节标题为3号黑体且居中
-		beforeskip = 0pt,			        % 段前行距0行	
-		afterskip = 20pt,			        % 段后行距0行
+		beforeskip = 10pt,			        % 段前行距0行	
+		afterskip = 10pt,			        % 段后行距0行
 		fixskip = true				        % 设置固定间距为true，抑制标题前后的多余间距
 	},
 	section = {%
-		number = \normalfont\arabic{chapter}.\normalfont\arabic{section} \hspace{-1em}, % 编号格式为1.1，编号与题目名之间的空格
+		number = \normalfont\arabic{chapter}.\normalfont\arabic{section} \hspace{-0.25em}, % 编号格式为1.1，编号与题目名之间的空格
 		format = {\heiti\zihao{4}\raggedright},   % section格式添加一条：左对齐
         beforeskip = 0pt,	% 段前行距0行
         afterskip = 0pt,	% 段后行距0行
 	},
 	subsection = {%
-		number = \normalfont\arabic{chapter}.\normalfont\arabic{section}.\normalfont\arabic{subsection} \hspace{-1em},% 编号格式为1.1.1，编号与题目名之间的空格
+		number = \normalfont\arabic{chapter}.\normalfont\arabic{section}.\normalfont\arabic{subsection} \hspace{-0.25em},% 编号格式为1.1.1，编号与题目名之间的空格
 		format = {\heiti\zihao{4}\raggedright},    % subsection格式添加一条：左对齐
         beforeskip = 0pt,	% 段前行距0行
         afterskip = 0pt		% 段后行距0行
@@ -103,18 +115,18 @@
 
 %==========================目录格式设置=============================
 \usepackage{titletoc}		                % 目录定制包
-\renewcommand{\contentsname}{目\quad 录}		% “目录”两字之间空X格
+\renewcommand{\contentsname}{目\quad 录\\[1em]}		% “目录”两字之间空X格
 
 \titlecontents{chapter}
 [0em] % 缩进量
-{\bfseries\songti\zihao{-4}} % 控制字体字号
-{\thecontentslabel\hspace{0em}} % 控制章节编号和名称的距离 
+{\songti\zihao{-4} } % 控制字体字号
+{\thecontentslabel\hspace{0.5em}} % 控制章节编号和名称的距离 
 {} 
 {\titlerule*[3pt]{.}\hspace{-1em}\contentspage} % 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
 
 \titlecontents{section}
 [1em] % 缩进量
-{\songti\zihao{-4}} % 控制字体字号
+{\songti\zihao{-4} \linespread{1}\selectfont} % 控制字体字号
 {\thecontentslabel\hspace{1em}} % 控制小节编号和名称的距离 
 {} 
 {\titlerule*[3pt]{.}\hspace{-1em}\contentspage} % 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
@@ -122,7 +134,7 @@
 
 \titlecontents{subsection}
 [2em] % 缩进量
-{\songti\zihao{-4}} % 控制字体字号
+{\songti\zihao{-4} \linespread{1}\selectfont} % 控制字体字号
 {\thecontentslabel\hspace{1em}} % 控制子节编号和名称的距离
 {} 
 {\titlerule*[3pt]{.}\hspace{-1em}\contentspage}% 控制引导点密度,这里引入\hspace{-1em}的功能是防止页码和引导点之间有空格
@@ -131,10 +143,15 @@
 \usepackage[%
 	backend=biber,				% 设置使用biber进行编译，也可以使用bibtex，但是功能更少
 	style=gb7714-2015,			% 设置风格样式为国家标准gb7714-2015
+     url=false, % 隐藏 url 字段
+     doi=false, % 隐藏 doi 字段
+     % note = false, % 隐藏笔记
+     % address = false, % 隐藏学位论文地址
 	sorting=none					% 设置排序按照年份，名字，标题进行排序，若想按照引用顺序排序，将其设置为none即可
 	]{biblatex}       			% 参考文献包
 \addbibresource{bib/ref.bib}    % 加载参考文献的文件
 \usepackage[hidelinks]{hyperref}  % 加载hyperref，实现参考文献引文跳转
+
 
 
 %==========================图表环境设置=============================
@@ -156,7 +173,7 @@
 \usepackage{longtable,booktabs} % 跨页长表格
 \usepackage{caption}
 \captionsetup[table]{skip=0pt} % 设置表格标题与内容之间无间距
-\captionsetup[figure]{skip=10pt} % 设置图片标题与内容之间无间距
+\captionsetup[figure]{skip=0pt} % 设置图片标题与内容之间无间距
 \renewcommand{\arraystretch}{1.5} % 扩大表格每行文字距离
 \DeclareCaptionLabelSeparator{quadspace}{\quad}  % 定义分隔符为\quad
 \captionsetup[table]{
@@ -169,10 +186,12 @@
     justification=centering,              % 标题居中
     font=small,                           % 字体大小
 }
+
+% \removeformreset{table}{chapter}
 % 修改表格编号格式为 "章号-表格序号"
-\renewcommand{\thetable}{\arabic{chapter}-\arabic{table}}
+ \renewcommand{\thetable}{\arabic{table}}
 % 修改图片编号格式为 "章号-图片序号"
-\renewcommand{\thefigure}{\arabic{chapter}-\arabic{figure}}
+\renewcommand{\thefigure}{\arabic{figure}}
 
 \usepackage{enumitem} % 必需宏包(用于(1)、(2)...)
 \usepackage{pifont}   % 提供带圈数字符号
@@ -195,6 +214,10 @@
 
 % 禁用mainmatter的分页，删除目录后一页产生的空白页
 \makeatletter
+
+% 取消图、表编号基于章节编号
+\@removefromreset{table}{chapter}
+
 \renewcommand{\mainmatter}{%
   \clearpage
   \@mainmattertrue
@@ -250,13 +273,20 @@
 \include{latex/Chapter}                 % 载入章节内容
 \backmatter                             	% 关闭章节序号，对页码没有影响
 
-%% -------------------- 谢辞 -------------------- 	
-\include{latex/Thanks}                  % 导入谢辞
+
 
 
 %% -------------------- 参考文献 -------------------- 
 \renewcommand*{\bibfont}{\zihao{5}\songti}
- \printbibliography[title=参考文献,heading=bibintoc] % 导入参考文献
+\defbibheading{bibliography}[\refname]{%
+    \chapter*{ \heiti \zihao{4} #1}% 正常字体，不加粗
+    \vspace{1\baselineskip}% 空一行
+}
+
+\printbibliography
+
+
+ % \printbibliography[title=参考文献,heading=bibintoc] % 导入参考文献
 
 
 \end{document}
