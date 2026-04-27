@@ -1,0 +1,37 @@
+【1.“目录”标题字号】
+
+%==========================目录格式设置=============================
+\usepackage{titletoc}		                % 目录定制包
+\renewcommand{\contentsname}{\zihao{-3}目\quad 录}		% “目录”两字之间空X格
+
+【2.章节字号】
+
+%==========================章节格式设置=============================
+\usepackage{ctex}
+\ctexset{ % 用来定制正文里的标题格式
+	chapter = {%
+		name = {},
+		number = \normalfont\arabic{chapter},              % 用中文数字显示章节号
+		format = {\heiti \zihao{-3} \centering},       % 设置章节标题为3号黑体且居中
+		beforeskip = 0pt,			        % 段前行距0行	
+		afterskip = 20pt,			        % 段后行距0行
+		fixskip = true				        % 设置固定间距为true，抑制标题前后的多余间距
+	},
+	section = {%
+		number = \normalfont\arabic{chapter}.\normalfont\arabic{section} \hspace{-1em}, % 编号格式为1.1，编号与题目名之间的空格
+		format = {\heiti\zihao{4}\raggedright},   % section格式添加一条：左对齐
+        beforeskip = 10pt,	% 段前行距0行
+        afterskip = 5pt,	% 段后行距0行
+	},
+	subsection = {%
+		number = \normalfont\arabic{chapter}.\normalfont\arabic{section}.\normalfont\arabic{subsection} \hspace{-1em},% 编号格式为1.1.1，编号与题目名之间的空格
+		format = {\heiti\zihao{-4}\raggedright},    % subsection格式添加一条：左对齐
+        beforeskip = 10pt,	% 段前行距0行
+        afterskip = 5pt		% 段后行距0行
+	},
+}
+
+【3.摘要字号】
+\chapter*{\zihao{-3}摘\quad  要}
+
+

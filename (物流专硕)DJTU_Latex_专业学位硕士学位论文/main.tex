@@ -94,7 +94,7 @@
 	chapter = {%
 		name = {},
 		number = \normalfont\arabic{chapter},              % 用中文数字显示章节号
-		format = {\heiti \zihao{3} \centering},       % 设置章节标题为3号黑体且居中
+		format = {\heiti \zihao{-3} \centering},       % 设置章节标题为3号黑体且居中
 		beforeskip = 0pt,			        % 段前行距0行	
 		afterskip = 20pt,			        % 段后行距0行
 		fixskip = true				        % 设置固定间距为true，抑制标题前后的多余间距
@@ -107,7 +107,7 @@
 	},
 	subsection = {%
 		number = \normalfont\arabic{chapter}.\normalfont\arabic{section}.\normalfont\arabic{subsection} \hspace{-1em},% 编号格式为1.1.1，编号与题目名之间的空格
-		format = {\heiti\zihao{4}\raggedright},    % subsection格式添加一条：左对齐
+		format = {\heiti\zihao{-4}\raggedright},    % subsection格式添加一条：左对齐
         beforeskip = 10pt,	% 段前行距0行
         afterskip = 5pt		% 段后行距0行
 	},
@@ -115,7 +115,7 @@
 
 %==========================目录格式设置=============================
 \usepackage{titletoc}		                % 目录定制包
-\renewcommand{\contentsname}{目\quad 录}		% “目录”两字之间空X格
+\renewcommand{\contentsname}{\zihao{-3}目\quad 录}		% “目录”两字之间空X格
 
 \titlecontents{chapter}
 [0em] % 缩进量
@@ -259,19 +259,18 @@
 	\renewcommand{\footrulewidth}{0pt}  % 去除页脚横线
 	}
 
-
 \include{latex/en_abstract}				% 导入英文摘要
  
 %% -------------------- 目录 --------------------
 \fancypagestyle{plain}{%
-%    \fancyhf{}  % 清空所有页眉页脚
+    \fancyhf{}  % 清空所有页眉页脚
     \fancyhead[CE,CO]{\zihao{-5} \songti 目录}  % 偶数页眉，居中，小五，宋体
     \renewcommand{\headrulewidth}{0pt}  % 去除页眉横线
     \renewcommand{\footrulewidth}{0pt}  % 去除页脚横线
 } 
 
 
-
+%\pagestyle{plain}   % 目录增加 
 \tableofcontents   						% 载入目录
 
 \clearpage  % 确保mainmatter从当前页开始
