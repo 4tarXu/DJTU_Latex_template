@@ -69,10 +69,20 @@
  	\fancyhead[CE]{\zihao{-5} \songti 大连交通大学专业学位硕士学位论文}  % 偶数页眉，居中，小五，宋体
  	\fancyhead[CO]{\zihao{-5} \songti \leftmark}  % 奇数页眉，居中，小五，宋体
      }
-% 定义摘要部分的页面样式：只显示页码，无页眉
-\fancypagestyle{abstract}{
+% 定义中文摘要部分的页面样式：
+\fancypagestyle{cnabstract}{
 	\fancyhf{}		% 清空所有定义
 	\fancyfoot[CE,CO]{\zihao{-5} \thepage}      % 设置页脚为当前页码，居中,小五
+	\fancyhead[CE,CO]{\zihao{-5} \songti 摘要}  % 偶数页眉，居中，小五，黑体 
+
+	}
+
+% 定义英文摘要部分的页面样式：
+\fancypagestyle{enabstract}{
+	\fancyhf{}		% 清空所有定义
+	\fancyfoot[CE,CO]{\zihao{-5} \thepage}      % 设置页脚为当前页码，居中,小五
+	\fancyhead[CE,CO]{\zihao{-5} \songti ABSTRACT}  % 偶数页眉，居中，小五，黑体 
+
 	}
 
 %==========================字体配置设置=============================
@@ -246,7 +256,7 @@
 	\renewcommand{\footrulewidth}{0pt}  % 去除页脚横线
 	}
 	
-\pagestyle{abstract}
+\pagestyle{cnabstract}
 \setcounter{page}{1}					% 重制页面编号为1
 \pagenumbering{Roman} 					% 摘要页码使用大写罗马数字
 \include{latex/cn_abstract}				% 导入中文摘要  
@@ -258,19 +268,20 @@
 	\renewcommand{\headrulewidth}{0pt}  % 去除页眉横线
 	\renewcommand{\footrulewidth}{0pt}  % 去除页脚横线
 	}
-
+\pagestyle{enabstract}
 \include{latex/en_abstract}				% 导入英文摘要
  
 %% -------------------- 目录 --------------------
 \fancypagestyle{plain}{%
     \fancyhf{}  % 清空所有页眉页脚
+    \fancyfoot[CE,CO]{\zihao{-5} \songti \thepage}      % 设置页脚为当前页码，居中,小五
     \fancyhead[CE,CO]{\zihao{-5} \songti 目录}  % 偶数页眉，居中，小五，宋体
     \renewcommand{\headrulewidth}{0pt}  % 去除页眉横线
     \renewcommand{\footrulewidth}{0pt}  % 去除页脚横线
 } 
 
 
-%\pagestyle{plain}   % 目录增加 
+\pagestyle{plain}   % 目录增加 
 \tableofcontents   						% 载入目录
 
 \clearpage  % 确保mainmatter从当前页开始

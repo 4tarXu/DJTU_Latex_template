@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.23)  27 APR 2026 20:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.23)  28 APR 2026 10:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -528,7 +528,7 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 Package ctexhook Warning: Package `ctex' can not be loaded with `ctexbook'.
 
 LaTeX Info: Package 'ctex.sty' has been disabled.
-            Load request ignored on input line 93.
+            Load request ignored on input line 103.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen291
@@ -991,82 +991,82 @@ LaTeX Warning: Unused global option(s):
 (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/main.aux (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/latex/cover.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/latex/cn_abstract.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/latex/en_abstract.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/latex/Chapter.aux) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/latex/Thanks.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 228.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 228.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 228.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 228.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 228.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 228.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 228.
-LaTeX Font Info:    Redeclaring math accent \check on input line 228.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 228.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 228.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 228.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 228.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 238.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 238.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 238.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 238.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 238.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 238.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 238.
+LaTeX Font Info:    Redeclaring math accent \check on input line 238.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 238.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 238.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 238.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 238.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 228.
+(Font)              `operators' in the math version `normal' on input line 238.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 228.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 238.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 228.
+(Font)              `operators' in the math version `bold' on input line 238.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 228.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 238.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 228.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 238.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 228.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 238.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 228.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 238.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 228.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 238.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 228.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 238.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 228.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 238.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 228.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 238.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 228.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 238.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 228.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 238.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1074,7 +1074,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package bicaption Info: Main language is not set on input line 228.
+Package bicaption Info: Main language is not set on input line 238.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1124,9 +1124,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/main.bbl)
-Package biblatex Info: Reference section=0 on input line 228.
-Package biblatex Info: Reference segment=0 on input line 228.
-Package hyperref Info: Link coloring OFF on input line 228.
+Package biblatex Info: Reference section=0 on input line 238.
+Package biblatex Info: Reference segment=0 on input line 238.
+Package hyperref Info: Link coloring OFF on input line 238.
  (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/main.out) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1223,16 +1223,16 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-])
+] [2])
 \openout2 = `latex/en_abstract.aux'.
 
- (./latex/en_abstract.tex [2
+ (./latex/en_abstract.tex [3
 
 
 
 
 
-] [3]) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/main.toc [4
+] [4]) (/Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/main.toc [5
 
 
 
@@ -1241,7 +1241,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [5]
+ [6]
 \openout2 = `latex/Chapter.aux'.
 
  (./latex/Chapter.tex
@@ -1322,12 +1322,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29686 strings out of 476683
- 626949 string characters out of 5804047
- 1865018 words of memory out of 5000000
- 49405 multiletter control sequences out of 15000+600000
+ 29688 strings out of 476683
+ 626997 string characters out of 5804047
+ 1876018 words of memory out of 5000000
+ 49407 multiletter control sequences out of 15000+600000
  536287 words of font info for 175 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,11n,97p,1186b,5161s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/main.pdf (22 pages).
+Output written on /Users/xushida/Nutstore Files/我的坚果云/大连交通大学(新)/教学/2025秋-综合毕设-(信管)/Github同步用/DJTU_Latex_template/(物流专硕)DJTU_Latex_专业学位硕士学位论文/.texpadtmp/main.pdf (23 pages).
