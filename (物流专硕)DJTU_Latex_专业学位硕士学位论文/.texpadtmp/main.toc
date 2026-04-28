@@ -60,6 +60,6 @@
 \contentsline {subsection}{\numberline {\normalfont 12.\normalfont 1.\normalfont 1 \hspace {-1em}}标题}{13}{subsection.12.1.1}%
 \contentsline {section}{\numberline {\normalfont 12.\normalfont 2 \hspace {-1em}}标题}{13}{section.12.2}%
 \contentsline {section}{\numberline {\normalfont 12.\normalfont 3 \hspace {-1em}}本章小结}{13}{section.12.3}%
-\contentsline {chapter}{\zihao {-3}参考文献}{14}{chapter*.6}%
+\contentsline {chapter}{参考文献}{14}{chapter*.6}%
 \contentsline {chapter}{致\hskip 1em\relax 谢}{15}{chapter*.7}%
 \contentsfinish 
