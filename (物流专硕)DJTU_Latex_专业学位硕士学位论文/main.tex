@@ -182,16 +182,18 @@
 \captionsetup[figure]{skip=0pt} % 设置图片标题与内容之间无间距
 \renewcommand{\arraystretch}{1.5} % 扩大表格每行文字距离
 \DeclareCaptionLabelSeparator{quadspace}{\quad}  % 定义分隔符为\quad
+
+\DeclareCaptionFont{myfont}{\fontsize{10.5pt}{12.6pt}\selectfont} % 自定义一个10.5pt的字体大小
 \captionsetup[table]{
     labelsep=quadspace,                   % 标签与标题之间的分隔符
     justification=centering,              % 标题居中
-    font=small,                           % 字体大小
+    font=myfont,                           % 字体大小
     labelsep=space,
 }
 \captionsetup[figure]{
     labelsep=quadspace,                   % 标签与标题之间的分隔符
     justification=centering,              % 标题居中
-    font=small,                           % 字体大小
+    font=myfont,                           % 字体大小
     labelsep=space,
 }
 
@@ -308,7 +310,7 @@
 
 %% -------------------- 参考文献 -------------------- 
 \renewcommand*{\bibfont}{\zihao{5}\songti}
- \printbibliography[title=参考文献,heading=bibintoc] % 导入参考文献
+ \printbibliography[title={\zihao{-3}参考文献},heading=bibintoc] % 导入参考文献
 
 %% -------------------- 致谢 -------------------- 	
 \fancypagestyle{plain}{
